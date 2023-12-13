@@ -1,0 +1,5 @@
+.secret_config
+terraform.tfstate*
+*.json
+.terraform
+.terraform.lock.hcl
