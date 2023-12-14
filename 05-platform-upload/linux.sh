@@ -27,15 +27,14 @@ EOT
 
 curl \
   -f \
-  -s \
   --header "Authorization: Bearer $TFE_TOKEN" \
   --header "Content-Type: application/vnd.api+json" \
   --request POST \
   --data @linux.json \
   https://$TFE_HOSTNAME/api/v2/organizations/$ORG_NAME/registry-providers/private/$ORG_NAME/$PROVIDER_NAME/versions/$PROVIDER_VERSION/platforms \
-  | jq -r '.data.links' > linux_upload.json
+  | jq -r '.data.links'
 
-echo "Upload $FILENAME to the URL in linux_upload.json"
+echo "Upload $FILENAME to the URL above"
 echo "Example:"
 echo ""
 echo "curl -f -s \\"

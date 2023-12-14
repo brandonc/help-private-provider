@@ -4,7 +4,7 @@ TFE_HOSTNAME="app.terraform.io"
 TFE_TOKEN=""
 ORG_NAME="bcroft"
 PROVIDER_NAME="test2094"
-PROVIDER_VERSION="1.0.0"
+PROVIDER_VERSION="2.0.0"
 KEY_ID="4955AE0764262AF2" # From step 1
 
 # Save this file as ".secret_config"

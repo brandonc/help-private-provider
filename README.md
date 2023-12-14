@@ -24,10 +24,14 @@ Now would be a good time to edit `config_example` and copy to `.secret_config`. 
 
 Run `./script.sh` and follow the instructions
 
-##### 03-provider-sha
+##### 03-version-create
 
 Run `./script.sh` and follow the instructions
 
-##### 04-provider-upload
+##### 04-provider-sha
+
+Run `./script.sh` and follow the instructions
+
+##### 05-platform-upload
 
 Run `./script.sh <SHA256SUM>` and follow the instructions
